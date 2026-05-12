@@ -58,12 +58,18 @@ section {
     text-align: center;
 }
 
+.formulario {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .banda-foto {
+    width: 30%;
     max-width: 70%;
     height: auto;
 }
 .invitacion-foto {
-    width: 80%;
+    width: 20cm;
     height: auto;
 }
 
