@@ -16,8 +16,11 @@ header {
 }
 
 .logo {
-    position: relative;
+    width: 80%;
     max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -108,4 +111,29 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
+}
+
+@media (max-width: 768px) {
+
+    .nav-icons {
+        gap: 15px;
+    }
+
+    .nav-icons a {
+        font-size: 1.3rem;
+    }
+
+    .invitacion-foto {
+        width: 90%;
+    }
+
+    .banda-foto {
+        width: 90%;
+        max-width: 90%;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
 }
