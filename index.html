@@ -12,25 +12,25 @@
     </header>
 
     <main>
+        <section class="invitacion">
+            <img src="invitacion.png" alt="Invitación al evento" class="invitacion-foto">
+        </section>
+        
         <section class="banda">
             <img src="banda.jpg" alt="Foto de la banda" class="banda-foto">
         </section>
 
-        <section class="invitacion">
-            <img src="invitacion.jpg" alt="Invitación al evento" class="invitacion-foto">
-        </section>
-
         <section class="formulario">
             <h2>Confirma tu asistencia</h2>
-            <form action="#" method="post">
+            <form action="https://formspree.io/f/xojrrorr" method="post">
+                <input type="hidden" name="_subject" value="Nueva confirmación Belle Troquet">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
-
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <button type="submit">Confirmar Asistencia</button>
-            </form>
+    <button type="submit">Confirmar Asistencia</button>
+</form>
         </section>
 
         <section class="mapa">

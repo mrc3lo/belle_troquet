@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: rgb(29,29,27);
     color: #fff;
 }
 
@@ -12,7 +12,7 @@ header {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 400px;
 }
 
 main {
@@ -26,8 +26,12 @@ section {
     text-align: center;
 }
 
-.banda-foto, .invitacion-foto {
-    max-width: 100%;
+.banda-foto {
+    max-width: 70%;
+    height: auto;
+}
+.invitacion-foto {
+    width: 100%;
     height: auto;
 }
 
